@@ -6,6 +6,14 @@ d = {'name':'gargi',
      'saurnme':'mahata',
      'mail':'g@gmail.com'}
 
+d = {'name':'gargi',
+     'saurnme':'mahata',
+     'mail':'g@gmail.com'}
+
+d = {'name':'gargi',
+     'saurnme':'mahata',
+     'mail':'g@gmail.com'}
+
 db1= client['mongotest']
 coll = db1['test']
 coll.insert_one(d )
